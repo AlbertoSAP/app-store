@@ -3,13 +3,25 @@ import { CommonModule } from '@angular/common';
 import { PublicComponent } from './Public.component';
 import { HomeComponent } from '../Public/home/home.component';
 import { AppRoutingModule } from '../app-router';
-
+import { NavbarComponent } from './navbar/navbar.component';
+import {MatToolbarModule} from '@angular/material/toolbar';
+import {MatIconModule} from '@angular/material/icon';
+import {MatButtonModule} from '@angular/material/button';
+import { FooterComponent } from './footer/footer.component';
 @NgModule({
   declarations: [
     PublicComponent,
-     HomeComponent],
-  imports: [CommonModule,
-    AppRoutingModule],
+     HomeComponent,
+     NavbarComponent,
+     FooterComponent],
+  imports: [
+    CommonModule,
+    AppRoutingModule,
+    MatToolbarModule,
+    MatIconModule,
+    MatButtonModule,
+    
+  ],
   exports: [PublicComponent,
      HomeComponent],
 })
