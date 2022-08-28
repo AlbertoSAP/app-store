@@ -8,12 +8,14 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
 import { FooterComponent } from './footer/footer.component';
+import { SidebarComponent } from './sidebar/sidebar.component';
 @NgModule({
   declarations: [
     PublicComponent,
      HomeComponent,
      NavbarComponent,
-     FooterComponent],
+     FooterComponent,
+     SidebarComponent],
   imports: [
     CommonModule,
     AppRoutingModule,
