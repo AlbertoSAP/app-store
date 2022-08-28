@@ -6,6 +6,7 @@ import { PrivateModule } from './Private/Private.module';
 import { PublicModule } from './Public/Public.module';
 import { NopagefoundComponent } from './nopagefound/nopagefound.component';
 import { AppRoutingModule } from './app-router';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { AppRoutingModule } from './app-router';
     BrowserModule,
     PrivateModule,
     PublicModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
