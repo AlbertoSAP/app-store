@@ -1,0 +1,34 @@
+.style-fundcanvas {
+  background-color: #0c0d0e;
+  color: white;
+}
+.style-list {
+  background-color: transparent;
+  color: white;
+}
+
+.style-scroll {
+  height: 300px;
+  overflow: auto;
+}
+
+.style-scroll::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.style-scroll::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+.style-scroll::-webkit-scrollbar-thumb {
+  background: rgb(246, 246, 248);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.style-scroll::-webkit-scrollbar-thumb:hover {
+  background: rgb(246, 246, 247);
+}
